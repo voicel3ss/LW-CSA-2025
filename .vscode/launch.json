@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Payroll",
+            "request": "launch",
+            "mainClass": "src.Payroll",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
             "name": "MadLibs",
             "request": "launch",
             "mainClass": "MadLibs",

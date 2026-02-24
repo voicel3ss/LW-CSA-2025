@@ -3,6 +3,13 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+/**
+ * @author Reyansh Jajoo
+ * @period 3
+ * @date 2-20-2026
+ * This program allows the user to play a game of Mad Libs.
+ */
+
 public class MadLibs {
     private static final String BASE_PATH = "C:\\Users\\Reyansh Jajoo\\OneDrive - Lake Washington School District\\High School\\10th Grade\\School\\3- AP CSA\\LW-CSA-2025\\unit6\\MadLibs\\files\\";
 
@@ -98,7 +105,7 @@ public class MadLibs {
                         System.out.print("Please enter " + aAn + " " + prompt + ": ");
                         toAdd = console.nextLine();
                     }
-                    boolean isPunctuation = ".,!?;:".contains(toAdd);
+                    boolean isPunctuation = ".\",!\"?\";:".contains(toAdd);
                     if (!newLine.equals("") && !isPunctuation) {
                         newLine += " ";
                     }

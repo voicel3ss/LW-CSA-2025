@@ -12,11 +12,12 @@
     }
   ],
   "java.project.sourcePaths": [
+    "unit6/MadLibs",
     "unit5/AP5PictureLab",
     "lib",
     "Magpie",
     "FracCalc",
-    "unit6/MadLibs"
+    "unit6/Payroll"
   ]
 
 }
