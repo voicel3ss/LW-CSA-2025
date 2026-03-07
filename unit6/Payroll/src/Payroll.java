@@ -20,10 +20,12 @@ public class Payroll {
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("Welcome to the payroll system!");
         String command = "";
+        // Loop to process user commands until "quit" or "q" is entered
         while (!command.equals("quit") && !command.equals("q")) {
             System.out.print("Command (? for help) > ");
             command = System.console().readLine();
             String[] commandParts = command.split(" ");
+            // Process the command based on the first word
             switch (commandParts[0]) {
                 case "help":
                 case "?":
@@ -31,6 +33,7 @@ public class Payroll {
                     break;
 
                 case "load":
+                    // Check if company name is provided
                     if (commandParts.length < 2) {
                         System.out.println("Error: Company name is required.");
                         break;
@@ -70,11 +73,12 @@ public class Payroll {
                         break;
                     }
 
-                    if (commandParts.length < 2) {
-                        System.out.println("Error: Employee ID and weekID is required.");
+                    if (commandParts.length != 3) {
+                        System.out.println("Error: Employee ID and week ID is required.");
                         break;
                     }
 
+                    // Validate employee ID and week ID
                     try {
                         int empId = Integer.parseInt(commandParts[1]);
                         String weekId = commandParts[2];
@@ -100,14 +104,15 @@ public class Payroll {
         }
     }
 
+    /**
+     * Helper method to print the available commands for the payroll program.
+     */
     public static void help(){
         System.out.println("Avaliable commands:");
         System.out.println("\t> load {companyName} - load dataset for company.");
         System.out.println("\t> employee {employeeID} - print total wages for an employee.");
-        System.out.println("\t> paystub {employeeID} - print a week paystub for an employee.");
+        System.out.println("\t> paystub {employeeID} {weekID} - print a week paystub for an employee.");
         System.out.println("\t> week {week} - print total and detailed wages for a week.");
         System.out.println("\t> quit - terminates the program.");
     }
-
-    // TODO: Add additional methods, as needed.
 }

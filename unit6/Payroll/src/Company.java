@@ -34,7 +34,6 @@ public class Company {
         if (!dir.exists()) {
             return "Error: Company dataset not found.";
         }
-
         File[] files = dir.listFiles();
         boolean firstLoaded = false;
         for (File file : files) {
