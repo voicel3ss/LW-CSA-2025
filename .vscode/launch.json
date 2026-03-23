@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortingLab",
+            "request": "launch",
+            "mainClass": "src.SortingLab",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
+            "name": "SortingLab",
+            "request": "launch",
+            "mainClass": "SortingLab",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
             "name": "Payroll",
             "request": "launch",
             "mainClass": "src.Payroll",

@@ -1,7 +1,9 @@
 {
     "java.project.referencedLibraries": [
+      "c:\\Users\\Reyansh Jajoo\\OneDrive - Lake Washington School District\\High School\\10th Grade\\School\\3- AP CSA\\LW-CSA-2025\\unit7\\SortingLab\\lib\\junit-platform-console-standalone-6.0.1.jar",
       "c:\\Users\\Reyansh Jajoo\\OneDrive - Lake Washington School District\\High School\\10th Grade\\School\\3- AP CSA\\LW-CSA-2025\\FracCalc\\lib\\assertj-core-3.24.2.jar",
-      "test-lib\\**\\*.jar"
+      "c:\\Users\\Reyansh Jajoo\\OneDrive - Lake Washington School District\\High School\\10th Grade\\School\\3- AP CSA\\LW-CSA-2025\\unit7\\SortingLab\\lib\\graph.jar",
+      "c:\\Users\\Reyansh Jajoo\\OneDrive - Lake Washington School District\\High School\\10th Grade\\School\\3- AP CSA\\LW-CSA-2025\\test-lib\\junit-platform-console-standalone-1.13.0-M3.jar"
     ],
 
   "java.configuration.runtimes": [
@@ -12,12 +14,13 @@
     }
   ],
   "java.project.sourcePaths": [
+    "unit6/Payroll",
     "unit6/MadLibs",
     "unit5/AP5PictureLab",
     "lib",
     "Magpie",
     "FracCalc",
-    "unit6/Payroll"
+    "unit7/SortingLab"
   ]
 
 }
