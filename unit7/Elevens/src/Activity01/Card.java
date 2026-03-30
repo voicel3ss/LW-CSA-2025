@@ -34,7 +34,9 @@ public class Card {
      *                       containing the point value of the card
      */
     public Card(String cardRank, String cardSuit, int cardPointValue) {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+        suit = cardSuit;
+        rank = cardRank;
+        pointValue = cardPointValue;
     }
 
     /**
@@ -43,9 +45,7 @@ public class Card {
      * @return this <code>Card's</code> suit.
      */
     public String suit() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-        /* *** replace the return statement below with the correct code *** */
-        return "";
+        return suit;
     }
 
     /**
@@ -54,9 +54,7 @@ public class Card {
      * @return this <code>Card's</code> rank.
      */
     public String rank() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-        /* *** replace the return statement below with the correct code *** */
-        return "";
+        return rank;
     }
 
     /**
@@ -65,9 +63,7 @@ public class Card {
      * @return this <code>Card's</code> point value.
      */
     public int pointValue() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-        /* *** replace the return statement below with the correct code *** */
-        return -1;
+        return pointValue;
     }
 
     /**
@@ -79,9 +75,7 @@ public class Card {
      *         false otherwise.
      */
     public boolean matches(Card otherCard) {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-        /* *** replace the return statement below with the correct code *** */
-        return false;
+        return (otherCard.pointValue == this.pointValue && otherCard.rank.equals(this.rank) && otherCard.suit.equals(this.suit));
     }
 
     /**
@@ -96,8 +90,6 @@ public class Card {
      */
     @Override
     public String toString() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-        /* *** replace the return statement below with the correct code *** */
-        return "";
+        return String.format("%s of %s (point value = %d)", rank, suit, pointValue);
     }
 }

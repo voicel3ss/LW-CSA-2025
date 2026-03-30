@@ -1,5 +1,7 @@
 package src.Activity03;
 
+import java.util.Arrays;
+
 /**
  * This class provides a convenient way to test shuffling methods.
  */
@@ -52,7 +54,20 @@ public class Shuffler {
      * @param values is an array of integers simulating cards to be shuffled.
      */
     public static void perfectShuffle(int[] values) {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 3 *** */
+        int[] shuffled = new int[values.length];
+        int k = 0;
+
+        for (int i = 0; i < (values.length+1)/2; i++){
+            shuffled[k] = values[i];
+            k++;
+
+            if (i + ((values.length+1)/2)< values.length){
+                shuffled[k] = values[i + ((values.length+1)/2)];
+                k++;
+            }
+        }
+
+        System.arraycopy(shuffled, 0, values, 0, values.length);
     }
 
     /**
@@ -68,6 +83,11 @@ public class Shuffler {
      * @param values is an array of integers simulating cards to be shuffled.
      */
     public static void selectionShuffle(int[] values) {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 3 *** */
+        for (int i = values.length - 1; i > 0; i--) {
+            int rand = (int) (Math.random() * (i + 1));
+            int temp = values[i];
+            values[i] = values[rand];
+            values[rand] = temp;
+        }
     }
 }

@@ -14,13 +14,14 @@
     }
   ],
   "java.project.sourcePaths": [
-    "unit6/Payroll",
-    "unit6/MadLibs",
-    "unit5/AP5PictureLab",
+    "FracCalc",
     "lib",
     "Magpie",
-    "FracCalc",
-    "unit7/SortingLab"
+    "unit5\\AP5PictureLab",
+    "unit6\\MadLibs",
+    "unit6\\Payroll",
+    "unit7\\Elevens",
+    "unit7\\SortingLab"
   ]
 
 }

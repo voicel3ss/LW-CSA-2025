@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeckTester",
+            "request": "launch",
+            "mainClass": "src.Activity04.DeckTester",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
+            "name": "Shuffler",
+            "request": "launch",
+            "mainClass": "src.Activity03.Shuffler",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
+            "name": "DeckTester",
+            "request": "launch",
+            "mainClass": "src.Activity02.DeckTester",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
+            "name": "CardTester",
+            "request": "launch",
+            "mainClass": "src.Activity01.CardTester",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
+            "name": "CardTester",
+            "request": "launch",
+            "mainClass": "Activity01.CardTester",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
             "name": "SortingLab",
             "request": "launch",
             "mainClass": "src.SortingLab",
