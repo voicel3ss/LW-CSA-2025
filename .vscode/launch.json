@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SudokuRunner",
+            "request": "launch",
+            "mainClass": "src.SudokuRunner",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
+            "name": "SudokuRunner",
+            "request": "launch",
+            "mainClass": "SudokuRunner",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
             "name": "DeckTester",
             "request": "launch",
             "mainClass": "src.Activity04.DeckTester",
