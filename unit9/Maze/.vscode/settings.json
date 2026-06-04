@@ -1,0 +1,12 @@
+{
+  "java.test.config": [
+    {
+      "name": "ap10-maze-opens",
+      "vmArgs": [
+        "--add-opens",
+        "java.base/java.lang=ALL-UNNAMED"
+      ]
+    }
+  ],
+  "java.test.defaultConfig": "ap10-maze-opens"
+}

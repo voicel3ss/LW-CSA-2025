@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "src.main.Program",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "main.Program",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
+            "name": "LawFirm",
+            "request": "launch",
+            "mainClass": "LawFirm",
+            "projectName": "LW-CSA-2025_32709cf3"
+        },
+        {
+            "type": "java",
             "name": "SudokuRunner",
             "request": "launch",
             "mainClass": "src.SudokuRunner",

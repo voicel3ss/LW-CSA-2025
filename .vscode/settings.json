@@ -1,11 +1,14 @@
 {
-    "java.project.referencedLibraries": [
-      "c:\\Users\\Reyansh Jajoo\\OneDrive - Lake Washington School District\\High School\\10th Grade\\School\\3- AP CSA\\LW-CSA-2025\\unit7\\SortingLab\\lib\\junit-platform-console-standalone-6.0.1.jar",
-      "c:\\Users\\Reyansh Jajoo\\OneDrive - Lake Washington School District\\High School\\10th Grade\\School\\3- AP CSA\\LW-CSA-2025\\FracCalc\\lib\\assertj-core-3.24.2.jar",
-      "c:\\Users\\Reyansh Jajoo\\OneDrive - Lake Washington School District\\High School\\10th Grade\\School\\3- AP CSA\\LW-CSA-2025\\unit7\\SortingLab\\lib\\graph.jar",
-      "c:\\Users\\Reyansh Jajoo\\OneDrive - Lake Washington School District\\High School\\10th Grade\\School\\3- AP CSA\\LW-CSA-2025\\test-lib\\junit-platform-console-standalone-1.13.0-M3.jar",
-      "unit8/Sudoku/lib/drawing-lib-2.2-shaded.jar"
-    ],
+    "java.project.referencedLibraries": {
+      "include": [
+        "unit9/Maze/lib/drawing-lib-2.3-shaded.jar",
+        "unit9/Maze/lib/junit-platform-console-standalone-6.0.1.jar"
+      ],
+      "exclude": [
+        "FracCalc/lib/assertj-core-3.24.2.jar",
+        "test-lib/junit-platform-console-standalone-1.13.0-M3.jar"
+      ]
+    },
 
   "java.configuration.runtimes": [
     {
@@ -15,15 +18,8 @@
     }
   ],
   "java.project.sourcePaths": [
-    "FracCalc",
-    "lib",
-    "Magpie",
-    "unit5\\AP5PictureLab",
-    "unit6\\MadLibs",
-    "unit6\\Payroll",
-    "unit7\\Elevens",
-    "unit7\\SortingLab",
-    "unit8\\Sudoku"
-  ]
+    "unit9/Maze"
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
 
 }
